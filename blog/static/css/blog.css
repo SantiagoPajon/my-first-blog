@@ -1,3 +1,14 @@
+h1 {
+  color: #D61C73;
+  padding-left: 0px;
+}
+
 h1 a {
   color: #D61C73;
+  padding-left: 10px;
+  font-family: 'Lobster';
+}
+
+body {
+  padding-left: 50px;
 }
