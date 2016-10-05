@@ -1,20 +1,13 @@
 .page-header {
        background-color: #ff9400;
        margin-top: 0;
-       padding: 20px 0px 20px 40px;
+       padding: 20px 20px 20px 40px;
    }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-       color: #D61C73;
+       color: #DB0F6F;
        font-size: 36pt;
-       text-decoration: none;
-   }
-
-.page-header h2, .page-header h2 a, .page-header h2 a:visited, .page-header h2 a:active {
-          color: #D61C73;
-          font-size: 28pt;
-          padding-left: 20px;
-          text-decoration: none;
+       font-family: 'Oswald', serif;
    }
 
    .content {
@@ -22,14 +15,35 @@
    }
 
    h1, h2, h3, h4 {
-       font-family: 'Oswald', sans-serif;
-       color: #D61C73;
+    font-family: 'Oswald', serif;
+    color: #DB0F6F;
+  }
+
+   .date {
+       float: right;
+       color: #828282;
    }
+
+   .save {
+       float: right;
+   }
+
+   .post-form textarea, .post-form input {
+       width: 100%;
+   }
+
+   .top-menu, .top-menu:hover, .top-menu:visited {
+       color: #ffffff;
+       float: right;
+       font-size: 26pt;
+       margin-right: 20px;
+   }
+
    .post {
   font-family: 'Cormorant Garamond', serif;
    }
 
-   .post h1{
-  font-family: 'Oswald', serif;
-  color: #D61C73;
+   .post h1 a, .post h1 a:visited {
+     color: #DB0F6F;
+     font-family: 'Oswald', serif;
    }
