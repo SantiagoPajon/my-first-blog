@@ -7,7 +7,7 @@
                {{ post.published_date }}
            </div>
            <h1><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h1>
-           <p>{{ post.text|linebreaksbr }}</p>
+           <p>{{ post.text|truncatewords_html:50 }} <a href="{% url 'post_detail' post.id %}"> Leer mas.</a></p>
        </div>
    {% endfor %}
 {% endblock content %}
